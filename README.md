@@ -46,11 +46,11 @@ The cost of the flow is at most the capacity of the cut.
 <img width="724" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/a98f67c2-b8d0-4d49-8c9c-08d94000d29f">
 
 ### Ford–Fulkerson Algorithm
-he most common way to approach the max-flow problem in polynomial time is the Ford-Fulkerson Algorithm (FFA).
+he most common way to approach the max-flow problem in polynomial time is the Ford-Fulkerson Algorithm (FFA).  
 `essentially a greedy algorithm `  
 starts from an emptyflow and, as long as it can find an augmenting path, improves the current solution using the path  
 (1) find an augmenting path  
-do a depth-first search
+do a depth-first search  
 (2) compute the bottleneck capacity  
 (3) augment each edge and the total flow  
 # Approximation algorithm 
