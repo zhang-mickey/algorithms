@@ -36,6 +36,20 @@ There exists a stable matching for every set of preference lists among the men a
 
 ## Gale-Shapley Stable Matching algorithm
 
+# Greedy
+## interval scheduling (maximum with a single resource)
+The most obvious rule might be always select the available request that starts earliest, but this method does not yield an iptimal solution.   
+requires the smallest interval of time, it still can produce a suboptimal schedule.   
+### optimal solution: accept first the request that finishes first
+
+## interval partition(schedule all the requests using as few resources as possible with many resource)
+<img width="439" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/2ed4891a-505d-4108-accc-3520b79d4a36">  
+<img width="441" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/fc9d5de3-f30e-455e-a0b1-8df46db55106">  
+
+### Earliest-start-time-first algorithm is optimal. 
+
+
+
 # Network Flow
 A broad range of network flow problems could be reduced to the max-flow problem. 
 ## Maximal Flow problem
