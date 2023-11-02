@@ -48,6 +48,21 @@ requires the smallest interval of time, it still can produce a suboptimal schedu
 
 ### Earliest-start-time-first algorithm is optimal. 
 
+## Scheduling to minimizing lateness
+
+### The earliest-deadline-first schedule S is optimal.
+
+## optimal caching
+<img width="570" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/cafb98c0-d837-457d-8820-3360be520cf0">
+
+### Farthest-in-future is optimal eviction schedule
+
+## Minimum spanning trees
+
+### cycle-cut intersection
+A cycle and a cutset intersect in an `even` number of edges.  
+<img width="369" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/d3aecb7e-b71e-48a5-89ef-5b337361dc0a">
+
 
 
 # Network Flow
@@ -60,7 +75,7 @@ The cost of the flow is at most the capacity of the cut.
 <img width="724" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/a98f67c2-b8d0-4d49-8c9c-08d94000d29f">
 
 ### Ford–Fulkerson Algorithm
-he most common way to approach the max-flow problem in polynomial time is the Ford-Fulkerson Algorithm (FFA).  
+the most common way to approach the max-flow problem in polynomial time is the Ford-Fulkerson Algorithm (FFA).  
 `essentially a greedy algorithm `  
 starts from an emptyflow and, as long as it can find an augmenting path, improves the current solution using the path  
 (1) find an augmenting path  
