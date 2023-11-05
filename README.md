@@ -98,7 +98,10 @@ How should we design algorithms for problems where polynomial time is probably a
 
 ## using dynamic programming on a rounded version of the input
 
-## Randomized Algorithm
+# Randomized Algorithm
+
+## Contention Resolution
+the processes cannot communicate with one other  
 
 
 # Literature:
