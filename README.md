@@ -83,6 +83,15 @@ do a depth-first search
 (2) compute the bottleneck capacity  
 (3) augment each edge and the total flow  
 # Approximation algorithm 
+How should we design algorithms for problems where polynomial time is probably an unattainable goal?  
+## greedy algorithms
+### Load balancing problem
+
+## pricing method (primal-dual technique)
+
+## linear programming and rounding
+
+## using dynamic programming on a rounded version of the input
 
 ## Randomized Algorithm
 
