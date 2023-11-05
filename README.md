@@ -84,6 +84,11 @@ do a depth-first search
 (3) augment each edge and the total flow  
 # Approximation algorithm 
 How should we design algorithms for problems where polynomial time is probably an unattainable goal?  
+ρ-approximation algorithm.   
+・Runs in polynomial time.   
+・Solves arbitrary instances of the problem   
+・Finds solution that is within ratio ρ of optimum.  
+
 ## greedy algorithms
 ### Load balancing problem
 
