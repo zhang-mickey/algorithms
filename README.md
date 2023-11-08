@@ -87,6 +87,9 @@ do a depth-first search
 从网络中选择一些边，使得去掉这些边后，剩下两个不连通的分别包含源点和汇点的点集。割的大小是这些边的容量之和。在所有可行的割中，最小的割称为最小割  
 最大流等于最小割  
 
+### Dinitz blocking flow algorithm
+Dinitz’s Algorithm improves the Edmonds-Karp Algorithm by discovering a blocking flow  
+
 # Approximation algorithm 
 How should we design algorithms for problems where polynomial time is probably an unattainable goal?  
 ρ-approximation algorithm.   
