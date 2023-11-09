@@ -90,6 +90,10 @@ do a depth-first search
 
 `Given a flow of maximum value, we can compute an s-t cut of minimum capacity in O(m) time`  
 
+### choose good augmenting paths to minimize the number of iterations
+`choose paths with large bottleneck`: finding such paths can slow down each iteration, avoid this slowdown by not worrying about selecting the path that has exactly the largest bottleneck capacity.  
+`scaling parameter ▲` : look for paths that have bottleneck capacity of at least ▲.  
+
 ### Dinitz blocking flow algorithm
 Dinitz’s Algorithm improves the Edmonds-Karp Algorithm by discovering a blocking flow  
 
