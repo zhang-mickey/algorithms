@@ -86,6 +86,9 @@ do a depth-first search
 ### Max flow Min cut
 从网络中选择一些边，使得去掉这些边后，剩下两个不连通的分别包含源点和汇点的点集。割的大小是这些边的容量之和。在所有可行的割中，最小的割称为最小割  
 最大流等于最小割  
+`Upper bound`: Let f be any s-t flow, and(A,B) any s-t cut. Then v(f) ≤c(A,B).
+
+`Given a flow of maximum value, we can compute an s-t cut of minimum capacity in O(m) time`  
 
 ### Dinitz blocking flow algorithm
 Dinitz’s Algorithm improves the Edmonds-Karp Algorithm by discovering a blocking flow  
