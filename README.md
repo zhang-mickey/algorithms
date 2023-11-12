@@ -105,6 +105,7 @@ How should we design algorithms for problems where polynomial time is probably a
 ・Finds solution that is within ratio ρ of optimum.  
 
 ## greedy algorithms
+
 ### Load balancing problem
 
 ## pricing method (primal-dual technique)
