@@ -17,7 +17,12 @@ An algorithm is efficient if it has a polynomial running time.
 ## insertion-Sort
 <img width="572" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/76afa8b4-2c9e-4553-9f7f-bee97b75009f">  
 
-
+# NP-Hardness and Reductions
+There are literally thousands of NP-complete problems
+## Polynomial-Time Reductions
+`Problem X is at least as hard as problem Y`, which means if we are capable of solving X, then we could also solve Y.
+`IF X can be solved in polynomial time,then Y can be solved in polynomial time`
+`IF Y cannot be solved in polynomial time,then X cannot be solved in polynomial time`
 
 # Graph
 ## Breath-first search
