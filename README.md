@@ -1,5 +1,17 @@
 # Definition of Efficiency
 An algorithm is efficient if it has a polynomial running time.  
+## NP 
+the set of all problems for which there exists an efficient `certifier`.
+
+# NP-Hardness and Reductions
+There are literally thousands of NP-complete problems:
+`Independent Set`,`Set Packing`,`Vertex Cover`,`Set Cover`,`Hamiltonian Cycle`,``
+## Polynomial-Time Reductions
+`Problem X is at least as hard as problem Y`, which means if we are capable of solving X, then we could also solve Y.
+`IF X can be solved in polynomial time,then Y can be solved in polynomial time`
+`IF Y cannot be solved in polynomial time,then X cannot be solved in polynomial time`
+## 
+
 ## Polynomial running time
 <img width="916" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/b1141aa5-d5e9-44af-bf98-5fd743407084">
 
@@ -17,16 +29,28 @@ An algorithm is efficient if it has a polynomial running time.
 ## insertion-Sort
 <img width="572" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/76afa8b4-2c9e-4553-9f7f-bee97b75009f">  
 
-# NP-Hardness and Reductions
-There are literally thousands of NP-complete problems
-## Polynomial-Time Reductions
-`Problem X is at least as hard as problem Y`, which means if we are capable of solving X, then we could also solve Y.
-`IF X can be solved in polynomial time,then Y can be solved in polynomial time`
-`IF Y cannot be solved in polynomial time,then X cannot be solved in polynomial time`
+# Knapsack Problem
+
+## Subset Sum
+
+
 
 # Graph
 ## Breath-first search
 <img width="396" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/3fda7d1d-4fb1-4755-8084-8758bc41a8ae">
+
+## The largest independent set
+独立集是指图 G 中两两互不相邻的顶点构成的集合
+
+## Vertex Cover
+
+## Set Cover
+## Hamiltonian Cycle 
+Given a directed graphG=(V,E),a cycle C inG is a Hamiltonian cycle if it visits each vertex exactly once.
+
+## Graph Coloring
+
+
 
 
 # Stable Matching Problem
