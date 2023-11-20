@@ -136,6 +136,9 @@ How should we design algorithms for problems where polynomial time is probably a
 ## greedy algorithms
 
 ### Load balancing problem
+(1) assign job to the machine whose load is smallest so far. `T≤2T*` 
+(2)sort jobs in decreasing order of processing times ,`T≤3/2T*`
+### Center Selection Problem
 
 ## pricing method (primal-dual technique)
 
