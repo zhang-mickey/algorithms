@@ -1,3 +1,12 @@
+
+# A*
+At one extreme, if h(n) is 0, then only g(n) plays a role, and A* turns into Dijkstra’s Algorithm, which is guaranteed to find a shortest path.
+If h(n) is always lower than (or equal to) the cost of moving from n to the goal, then A* is guaranteed to find a shortest path. The lower h(n) is, the more node A* expands, making it slower.
+## Monotone
+
+## Dijkstra 
+Dijkstra algorithm is guaranteed to find a shortest path as long as none of the edges have a negative cost.  
+
 # Definition of Efficiency
 An algorithm is efficient if it has a polynomial running time.  
 ## NP 
@@ -137,7 +146,7 @@ How should we design algorithms for problems where polynomial time is probably a
 
 ### Load balancing problem
 (1) assign job to the machine whose load is smallest so far. `T≤2T*` 
-(2)sort jobs in decreasing order of processing times ,`T≤3/2T*`
+(2)Longest processing time, sort jobs in decreasing order of processing times ,`T≤3/2T*`
 ### Center Selection Problem
 
 ## pricing method (primal-dual technique)
