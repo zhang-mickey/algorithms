@@ -169,6 +169,27 @@ How should we design algorithms for problems where polynomial time is probably a
 the processes cannot communicate with one other  
 
 
+# dynamic programming
+## Jump Game
+<img width="440" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/e2732282-804b-400f-81b8-142bcd2a2441">
+
+```
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
+        reachable_idx = 0
+        for i, num in enumerate(nums):
+            if i > reachable_idx:
+                return False  # Can't move past the current index
+            reachable_idx = max(reachable_idx, i + num)
+        return reachable_idx >= len(nums) - 1
+```
+# Graph
+## course schedule 
+<img width="424" alt="image" src="https://github.com/zhang-mickey/algorithms/assets/145342600/56ef047c-f5a5-4a5b-a8dd-bf5a6f447ee9">
+```
+
+```
+
 # Literature:
 Jon Kleinberg, Eva Tardos: Algorithm Design  
 https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/
