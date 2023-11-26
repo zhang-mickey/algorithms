@@ -1,3 +1,11 @@
+# linearPrograms
+linear problems can be solved in polynomial time.  
+integer programming is considerably harder than linear programming  
+
+## using linear programming for vertex cover
+
+## interior point methods
+
 
 # A*
 At one extreme, if h(n) is 0, then only g(n) plays a role, and A* turns into Dijkstra’s Algorithm, which is guaranteed to find a shortest path.
