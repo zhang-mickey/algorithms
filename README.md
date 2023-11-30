@@ -1,7 +1,11 @@
 # linearPrograms
 linear problems can be solved in polynomial time.  
 integer programming is considerably harder than linear programming  
-
+`Regardless of objective function coefficients, an optimal solution occurs at a vertex`
+把可行域的所有顶点找出来，然后比较它们的函数值，最大的那个解一定是最优解
+## Convex set(LP feasible region is a convex set)
+If two points x and y are in the set,then so is for (Jensen inequality)
+### If there exist an optimal solution , then there exists one that is a vertex
 ## using linear programming for vertex cover
 
 ## interior point methods
